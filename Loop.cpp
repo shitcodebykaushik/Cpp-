@@ -5,7 +5,8 @@ Chage the value that is getting tested
 Automatic change of value tha is getting tested
 i++ it means use it then increament it 
 ++i it means increament it then use it 
-1.while loop stands for  execute a target statement as long as a given condition is true. 
+1.while loop stands for  execute a target statement as long as a given condition is true.
+break and continue these two are keywords which we can use it
 */
 #include<iostream>
 using namespace std;
