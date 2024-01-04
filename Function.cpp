@@ -15,6 +15,6 @@ int name (){
   return 5;
 }
 int main(){
- printf("%d \n",name()); //This kind off gifferent approach 
+ printf("%d \n",name()); //This is the  kind off different approach 
  return 0;
 }
