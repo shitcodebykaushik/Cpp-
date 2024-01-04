@@ -1,3 +1,4 @@
+//Functionreturn type function name (){ statement }
 #include<iostream>
 using namespace std;
 char name (){
@@ -5,4 +6,15 @@ char name (){
 }
 int main(){
  name();
+}
+//Seeeing the imporatnce of return type
+#include<iostream>
+using namespace std;
+int name (){
+  //  puts("hello");
+  return 5;
+}
+int main(){
+ printf("%d \n",name()); //This kind off gifferent approach 
+ return 0;
 }
