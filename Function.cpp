@@ -47,3 +47,5 @@ int main(){
  printf("%d \n",name()); //This is the  kind off different approach 
  return 0;
 }
+//Entire structures canbe passed as arguments to functions. 
+
