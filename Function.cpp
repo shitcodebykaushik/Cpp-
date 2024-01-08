@@ -24,6 +24,25 @@ int name (){
   //  puts("hello");
   return 5;
 }
+//Printing the same number over user desiredtime 
+#include<iostream>
+using namespace std;
+void k1(char, int);
+void k1(char ch, int in) {
+  for(int k=0;k<in;k++)
+ cout<<ch;
+}
+int main(){
+  char puru;
+  int kaushik;
+  cout<<"Enter the character "<<endl;
+  cin>>puru;
+  cout<<"Enter the time you wana print "<<endl;
+  cin>>kaushik;
+  k1(puru,kaushik);
+  return 0;
+
+}
 int main(){
  printf("%d \n",name()); //This is the  kind off different approach 
  return 0;
